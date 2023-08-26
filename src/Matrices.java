@@ -54,7 +54,7 @@ public class Matrices {
             System.out.println("Matriz C: ");
             printMatriz(matrizC);
 
-            DataOutputStream matrixCStream = new DataOutputStream(new FileOutputStream("c.mat"));
+            DataOutputStream matrixCStream = new DataOutputStream(new FileOutputStream("src/c.mat"));
             matrixCStream.writeByte(filasA);
             matrixCStream.writeByte(columnasB);
 
