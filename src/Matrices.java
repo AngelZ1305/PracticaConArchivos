@@ -70,9 +70,9 @@ public class Matrices {
         }
     }
     public static void printMatriz(double[][] matriz) {
-        for (double[] row : matriz) {
-            for (double value : row) {
-                System.out.print(value + "\t");
+        for (double[] fila : matriz) {
+            for (double valor : fila) {
+                System.out.print(valor + "\t");
             }
             System.out.println();
         }
